@@ -1,0 +1,35 @@
+{
+  "name": "@urat/easy-queue",
+  "version": "0.0.3",
+  "description": "easy queue",
+  "keywords": [
+    "Promise",
+    "queue"
+  ],
+  "main": "dist/easy-queue.cjs.js",
+  "module": "dist/easy-queue.esm.js",
+  "typings": "dist/easy-queue.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwj9297/easy-queue.git"
+  },
+  "author": "zwj9297",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/zwj9297/easy-queue/issues"
+  },
+  "homepage": "https://github.com/zwj9297/easy-queue#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.5",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-uglify": "^3.0.2",
+    "typescript": "^4.4.4"
+  }
+}
